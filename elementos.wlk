@@ -32,6 +32,7 @@ class Mascota {
             salud = (salud-unaPlaga.nivelDeDanio()).max(0)
         }
     }
+    method salud() = salud
 }
 
 class Barrio {
